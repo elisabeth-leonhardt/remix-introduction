@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "title": "dar charla de Remix",
+      "assignee": "Eli",
+      "id": "75ad5e3e-7b17-445f-9558-934691202911"
+    },
+    {
+      "title": "festejar cumple de mi TL favorito",
+      "assignee": "todo el equipo",
+      "id": "725e4b72-47eb-4091-b3fd-b8ca94aaf4b4"
+    },
+    {
+      "title": "festejar cumple del mejor backend de bitlogic",
+      "assignee": "todo el equipo",
+      "id": "c7eb42cb-80c0-4382-96c2-2ccc9a732de8"
+    },
+    {
+      "title": "terminar mi tarea para OEC",
+      "assignee": "Eli",
+      "id": "3d1ae2c2-3c17-40c2-ac77-0c4012d03b05"
+    },
+    {
+      "title": "preparar filminas para la charla",
+      "assignee": "Eli",
+      "id": "f3822fb5-04e6-426c-9126-7f430124a4c7"
+    }
+  ]
+}
