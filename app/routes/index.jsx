@@ -9,6 +9,7 @@ import indexStyles from "../styles/index.css";
 //     },
 //   ];
 // };
+
 export default function Index() {
   return (
     <div className='grid place-content-center h-full text-center text-lg'>

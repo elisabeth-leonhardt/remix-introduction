@@ -2,6 +2,8 @@ import { json } from "@remix-run/node";
 import { useLoaderData, useSearchParams } from "@remix-run/react";
 import React from "react";
 
+const RICK_AND_MORTY_REST = "https://rickandmortyapi.com/api/character";
+
 export const loader = async ({ request }) => {
   const url = new URL(request.url);
   const page = url.searchParams.get("page") || 1;

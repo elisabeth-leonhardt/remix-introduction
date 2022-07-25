@@ -25,7 +25,7 @@ export default function App() {
     <html lang='en'>
       <head>
         <Meta />
-        <Scripts></Scripts>
+        <Scripts />
         <Links />
       </head>
 
