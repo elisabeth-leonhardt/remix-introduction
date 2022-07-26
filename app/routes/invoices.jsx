@@ -3,16 +3,6 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { getInvoices } from "../invoiceData";
 
-export function ErrorBoundary() {
-  return (
-    <div className='grid place-content-center'>
-      <p className='p-4 border-2 border-red-900 bg-red-500 h-[auto] w-[20ch]'>
-        We are very sorry! There was a problem with your invoices!
-      </p>
-    </div>
-  );
-}
-
 function index() {
   const invoices = getInvoices();
   return (

@@ -19,8 +19,7 @@ const GetCharacters = gql`
 `;
 
 export const loader = async () => {
-  const data = await client.request(GetCharacters);
-  return data;
+  return null;
 };
 
 export default function GraphqlTest() {
@@ -31,7 +30,7 @@ export default function GraphqlTest() {
         Rick and Morty Page 2 fetched with Graphql
       </h1>
       <section className='grid grid-cols-5 gap-8 m-12'>
-        {data.characters.results.map((character) => (
+        {data?.characters?.results.map((character) => (
           <div
             key={character.id}
             className='shadow-lg rounded-lg overflow-hidden pb-4 text-center'

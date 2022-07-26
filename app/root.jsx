@@ -25,8 +25,8 @@ export default function App() {
     <html lang='en'>
       <head>
         <Meta />
-        <Scripts></Scripts>
         <Links />
+        {/* <Scripts /> */}
       </head>
 
       <body>
@@ -48,28 +48,28 @@ export default function App() {
   );
 }
 
-export function CatchBoundary() {
-  const caught = useCatch();
+// export function CatchBoundary() {
+//   const caught = useCatch();
 
-  return (
-    <html lang='en'>
-      <head>
-        <Meta />
+//   return (
+//     <html lang='en'>
+//       <head>
+//         <Meta />
 
-        <Links />
-      </head>
+//         <Links />
+//       </head>
 
-      <body>
-        <header className='h-12 bg-[#669bbc]'>
-          <Link to='/'>Home</Link>
-        </header>
-        <main className='min-h-[90vh]'>
-          <h1 className='text-lg text-red-800 text-center'>
-            Ouch! There was an error: {caught.status}, {caught.statusText}
-          </h1>
-        </main>
-        <footer className='h-12 bg-[#669bbc]'>Footer</footer>
-      </body>
-    </html>
-  );
-}
+//       <body>
+//         <header className='h-12 bg-[#669bbc]'>
+//           <Link to='/'>Home</Link>
+//         </header>
+//         <main className='min-h-[90vh]'>
+//           <h1 className='text-lg text-red-800 text-center'>
+//             Ouch! There was an error: {caught.status}, {caught.statusText}
+//           </h1>
+//         </main>
+//         <footer className='h-12 bg-[#669bbc]'>Footer</footer>
+//       </body>
+//     </html>
+//   );
+// }
