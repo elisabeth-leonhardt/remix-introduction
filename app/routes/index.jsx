@@ -9,6 +9,7 @@ import indexStyles from "../styles/index.css";
 //     },
 //   ];
 // };
+
 export default function Index() {
   return (
     <div className='grid place-content-center h-full text-center text-lg'>
@@ -29,6 +30,9 @@ export default function Index() {
       </Link>
       <Link to='/todo' prefetch='intent' className='underline'>
         Todo
+      </Link>
+      <Link to='/form' prefetch='intent' className='underline'>
+        form
       </Link>
     </div>
   );

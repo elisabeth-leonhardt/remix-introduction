@@ -25,8 +25,8 @@ export default function App() {
     <html lang='en'>
       <head>
         <Meta />
+        <Scripts />
         <Links />
-        {/* <Scripts /> */}
       </head>
 
       <body>

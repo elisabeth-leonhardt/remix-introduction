@@ -2,10 +2,12 @@ import { json } from "@remix-run/node";
 import { useLoaderData, useSearchParams } from "@remix-run/react";
 import React from "react";
 
-const ENDPOINT = "https://rickandmortyapi.com/api/character";
+const RICK_AND_MORTY_REST = "https://rickandmortyapi.com/api/character";
 
 export const loader = async ({ request }) => {
-  return null;
+  const data = await fetch("https://rickandmortyapi.com/api/character");
+  const response = await data.json();
+  return response;
 };
 
 function RickAndMorty() {
