@@ -5,7 +5,7 @@ import { getInvoice } from "../../invoiceData";
 export function ErrorBoundary() {
   const { invoiceId } = useParams();
   return (
-    <div className='text-red-500'>
+    <div className='text-red-500 pl-4'>
       We are sorry, we couldn't display the invoice with id: {invoiceId}
     </div>
   );

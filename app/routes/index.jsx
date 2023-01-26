@@ -31,6 +31,9 @@ export default function Index() {
       <Link to='/todo' prefetch='intent' className='underline'>
         Todo
       </Link>
+      <Link to='/form' prefetch='intent' className='underline'>
+        form
+      </Link>
     </div>
   );
 }
